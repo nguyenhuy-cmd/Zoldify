@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // Thay đổi IP này phù hợp với môi trường chạy local của em.
 // 10.0.2.2 là localhost từ phía Android Emulator.
 // Nếu test máy thật, hãy đổi thành IP Wifi của máy tính chạy Backend (ví dụ: 192.168.1.x).
-export const BASE_URL = 'http://10.0.2.2:3000';
+export const BASE_URL = 'http://10.0.2.2:3000/api/v1';
 
 const api = axios.create({
   baseURL: BASE_URL,
